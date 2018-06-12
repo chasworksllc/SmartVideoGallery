@@ -1,0 +1,9 @@
+D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.csproj.CoreCompileInputs.cache
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\SmartVideoGallery.exe.config
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\SmartVideoGallery.exe
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\SmartVideoGallery.pdb
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\Newtonsoft.Json.dll
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\Newtonsoft.Json.xml
+D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.csproj.CopyComplete
+D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.exe
+D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.pdb
