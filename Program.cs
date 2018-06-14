@@ -4,6 +4,7 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -27,7 +28,7 @@ namespace SmartVideoGallery
         {
 
 
-            
+
             //string videoId  =  UploadAndIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul01.mp4", "BetterCallSaul-Video01");
             //string videoId = UploadAndIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul02.mp4", "BetterCallSaul-Video02");
             //string videoId = UploadAndIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul03.mp4", "BetterCallSaul-Video03");
@@ -37,6 +38,11 @@ namespace SmartVideoGallery
             //string videoId = UploadAndIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/video01.mp4", "HathawaySpeech");
             //string videoId = UploadAndIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/video02.mp4", "BowieCharlieRose");
             //string videoId = UploadAndIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/video03.mp4", "GeorgeBenson");
+
+            //SampleCode01.UploadIndexVideo("https://chasworksllcvideotest.blob.core.windows.net/videos/video03.mp4", "George Benson").Wait();
+            SampleCode01.ExecuteSimpleQuery("Shane Dawson");
+
+
 
             string videoId = "a61635115f";
             string accessToken = GetAccountAccessToken();
@@ -72,6 +78,9 @@ namespace SmartVideoGallery
 
             Console.ReadKey();
         }
+
+
+       
 
         public static string UploadVideoOriginal(string videoUrl,
             string videoName,

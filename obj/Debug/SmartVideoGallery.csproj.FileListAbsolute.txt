@@ -7,3 +7,8 @@ D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\Newtonsoft.Json.xml
 D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.csproj.CopyComplete
 D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.exe
 D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.pdb
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\Microsoft.Azure.Documents.ServiceInterop.dll
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\DocumentDB.Spatial.Sql.dll
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\Microsoft.Azure.Documents.Client.dll
+D:\SmartVideoGallery\SmartVideoGallery\bin\Debug\Microsoft.Azure.Documents.Client.xml
+D:\SmartVideoGallery\SmartVideoGallery\obj\Debug\SmartVideoGallery.csprojResolveAssemblyReference.cache
