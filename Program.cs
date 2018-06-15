@@ -24,17 +24,23 @@ namespace SmartVideoGallery
         static void Main(string[] args)
         {
 
-            VideoSample[] SampleVideoUrls = {
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul01.mp4", Title="Better Call Saul Sample 1" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul02.mp4", Title="Better Call Saul Sample 2" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul03.mp4", Title="Better Call Saul Sample 3" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul04.mp4", Title="Better Call Saul Sample 4" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/ShaneDawson.mp4", Title="Shane Dawson" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/video01.mp4", Title="Anne Hathaway Speech" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/video02.mp4", Title="David Bowie Charlie Rose" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/video03.mp4", Title="George Benson At Namm" }
-            };
+            //VideoSample[] SampleVideoUrls = {
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul01.mp4", Title="Better Call Saul Sample 1" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul02.mp4", Title="Better Call Saul Sample 2" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul03.mp4", Title="Better Call Saul Sample 3" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/BetterCallSaul04.mp4", Title="Better Call Saul Sample 4" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/ShaneDawson.mp4", Title="Shane Dawson" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/video01.mp4", Title="Anne Hathaway Speech" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/video02.mp4", Title="David Bowie Charlie Rose" },
+            //    new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/video03.mp4", Title="George Benson At Namm" }
+            //};
 
+            // PUBLIC DOMAIN VIDEOS
+            VideoSample[] SampleVideoUrls = {
+                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/TheWildRide.mp4", Title="The Wild Ride" },
+                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/TheBat.mp4", Title="The Bat" },
+                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/MoonWalk.mp4", Title="Moon Walk" }
+            };
 
 
             string apiUrl = "https://api.videoindexer.ai";
@@ -59,7 +65,7 @@ namespace SmartVideoGallery
 
                 Console.WriteLine("Calling upload service...");
 
-                int sampleVideoIndexToUse = 5;
+                int sampleVideoIndexToUse = 2;
 
                 videoObject.Id = VideoService.UploadVideo(SampleVideoUrls[sampleVideoIndexToUse].Title, SampleVideoUrls[sampleVideoIndexToUse].Url);
 
