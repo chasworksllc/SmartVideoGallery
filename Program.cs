@@ -39,7 +39,7 @@ namespace SmartVideoGallery
             VideoSample[] SampleVideoUrls = {
                 new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/TheWildRide.mp4", Title="The Wild Ride" },
                 new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/TheBat.mp4", Title="The Bat" },
-                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/MoonWalk.mp4", Title="Moon Walk" }
+                new VideoSample{Url= "https://chasworksllcvideotest.blob.core.windows.net/videos/MoonWalk.mp4", Title="Hoover Dam" }
             };
 
 
